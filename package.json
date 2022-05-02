@@ -2,8 +2,9 @@
   "name": "what-should-i-buy",
   "version": "1.0.0",
   "description": "website - what should I buy?\r first idea is to come up with something that lists computers based off of ratings and specs for each major -> will posibly be skewed with one type or size\r maybe have a dropdown for preferences on size or weight?",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "dev": "nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brey Rivera",
